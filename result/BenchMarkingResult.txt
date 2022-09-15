@@ -1,0 +1,32 @@
+---------------------------------------------------------
+Device Information:
+	GPU Model: b'NVIDIA GeForce RTX 2060'
+	GPU Memory: 6.0 GB
+	GPU Computue Capability: 7
+----------------------
+Benchmarking Results:
+----------------------
+Array Convert:
+	Array Size: (10000, 10000)
+	ArrayConvert Timing: 1.8494007587432861 Seconds
+----------------------
+Array Nan Check:
+	Array Size: (10000, 10000)
+	ArrayNanCheck Timing: 0.11002135276794434 Seconds
+----------------------
+Data Read:
+	Data Size: (100000, 14)
+	DataRead Timing: 0.059942007064819336 Seconds
+----------------------
+VGG Full Precision:
+	Data Size: 124
+	VGGFullPrecision Timing: 6.475639343261719 Seconds
+	Connections: 1824812148
+----------------------
+VGG Half Precision:
+	Data Size: 124
+	VGGHalfPrecision Timing(In TensorRT): 2.592264413833618 Seconds
+	Connections: 1824812148
+----------------------
+
+Benchmarking Finished!

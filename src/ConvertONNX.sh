@@ -1,0 +1,1 @@
+python -m tf2onnx.convert --saved-model ./tfmodel/ --output ./models/model.onnx --opset 11 --verbose
